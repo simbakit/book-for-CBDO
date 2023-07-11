@@ -1,0 +1,19 @@
+Запуск приложения:
+import subprocess
+subprocess.Popen("путь_к_приложению.exe")
+
+Закрытие приложения:
+import os
+os.system("taskkill /im имя_процесса.exe /f")
+
+Создание новой папки:
+import os
+os.mkdir("путь_к_новой_папке")
+
+Удаление папки:
+import shutil
+shutil.rmtree("путь_к_папке")
+
+Запуск команды в командной строке:
+import subprocess
+subprocess.Popen("команда")
